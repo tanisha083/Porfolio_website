@@ -1,11 +1,11 @@
 body{
     text-align: center;
-    /* color: darkcyan; */
-    font-family: sans-serif;
+    
+    font-family: serif;
     margin: 0;
 }
 h1, h2, h3{
-    color: rgb(235, 106, 94);
+    color: rgb(245, 141, 131);
     font-weight: 600;
 }
 h1{
@@ -21,8 +21,8 @@ p{
     letter-spacing: 1px;
 }
 .profile-pic{
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 100%;
+    object-fit: contain;
     margin: 40px;
     height: 400px;
     width: 400px;
@@ -37,13 +37,13 @@ ul, ol{
     list-style: none;
 }
 hr{
-    border: dotted #d1d0d0 6px;
+    border: dotted #e7caca 6px;
     border-bottom: none;
     width: 4%;
     margin: 80px auto;
 }
 table {
-    border-collapse: collapse;
+    border-collapse: revert;
     margin: 50px;
 }
 
@@ -52,11 +52,11 @@ th, td {
     padding: 15px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #f5c5c5}
 
 th {
-    background-color:  rgb(235, 106, 94);
-    color: white;
+    background-color:  rgb(245, 141, 131);
+    color: rgb(246, 227, 227);
 }
 .center {
     margin-left: auto;
@@ -73,7 +73,7 @@ th {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .skill-img {
     float: left;
@@ -83,7 +83,7 @@ th {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .fas{
     font-size: 15px;
@@ -104,7 +104,7 @@ input:focus, textarea:focus{
     margin: none;
 }
 input[type=submit]{
-    background-color:  rgb(235, 106, 94);
+    background-color:  rgb(245, 141, 131);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -113,7 +113,7 @@ input[type=submit]{
     cursor: pointer;
 }
 .footer-link{
-    color: #095457;
+    color: rgb(245, 141, 131);
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
@@ -141,7 +141,7 @@ input[type=submit]{
     object-fit: cover;
 }
 .bottom-container{
-    background-color:  rgb(235, 106, 94); 
+    background-color:  rgb(245, 141, 131); 
     padding: 40px;
 }
 .intro{
@@ -152,7 +152,7 @@ input[type=submit]{
     text-align: end;
 }
 .contact-div{
-    background-color: rgba(238, 252, 252, 0.781); 
+    background-color: rgba(245, 223, 226, 0.924); 
     padding: 50px;
 }
 .course-list{
